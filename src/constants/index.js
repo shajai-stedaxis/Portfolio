@@ -7,6 +7,7 @@ import {
   flipzy,
   ponjesly,
   bapuji,
+  icon,
 } from "../assets";
 
 import {
@@ -41,6 +42,10 @@ import {
   SiHostinger,
   SiVercel,
   SiCpanel,
+  SiStripe,
+  SiMailgun,
+  SiCloudflare,
+  SiPm2,
 } from "react-icons/si";
 
 import { FaNodeJs } from "react-icons/fa";
@@ -48,7 +53,7 @@ import { DiCss3, DiJava } from "react-icons/di";
 import { BiLogoVisualStudio } from "react-icons/bi";
 
 export const resumeLink =
-  "https://drive.google.com/file/d/1UoWBQPzp1UkR1gENBDIw-9M7hJ-9Kg4K/view?usp=sharing";
+  "https://drive.google.com/file/d/1KwAgPKWB_BTzDrcLLEo7X6aRohYF1j3_/view?usp=sharing";
 export const repoLink = "https://github.com/shajai56?tab=repositories";
 
 export const callToAction = "https://www.linkedin.com/in/shajai56/";
@@ -219,11 +224,26 @@ export const skills = [
       },
       {
         id: "tp-2",
+        icon: SiStripe,
+        name: "Stripe"
+      },
+      {
+        id: "tp-3",
+        icon: SiMailgun,
+        name: "Mailgun"
+      },
+      {
+        id: "tp-4",
+        icon: SiCloudflare,
+        name: "Cloudflare"
+      },
+      {
+        id: "tp-5",
         icon: SiCloudinary,
         name: "Cloudinary"
       },
       {
-        id: "tp-3",
+        id: "tp-6",
         icon: SiTwilio,
         name: "Twilio"
       },
@@ -251,6 +271,11 @@ export const skills = [
         id: "d-4",
         icon: SiCpanel,
         name: "cPanel"
+      },
+      {
+        id: "d-5",
+        icon: SiPm2,
+        name: "PM2"
       }
     ]
   },
